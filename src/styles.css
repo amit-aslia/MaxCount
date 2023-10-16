@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 16px;
+  gap: 16px;
+}
+.heading {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.box {
+  width: 80%;
+  background: lightpink;
+  height: 300px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.clicks {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.timer {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button {
+  border-radius: 8px;
+  background: white;
+  width: 100px;
+  height: 40px;
+  font-size: 24px;
+}
